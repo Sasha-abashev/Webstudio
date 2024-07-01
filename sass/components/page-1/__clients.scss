@@ -1,0 +1,53 @@
+/* section clients */
+
+
+
+
+section 
+.clients {
+  background: #fff;
+}
+.clients__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+
+  padding: 94px 0;
+}
+.clients__title {
+  color: #212121;
+  text-align: center;
+  font-family: var(--main-font);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+}
+.clients__logos {
+  display: flex;
+  gap: 30px;
+}
+.clietns__logo {
+  width: 106px;
+  height: 60px;
+  padding: 16px 32px;
+  border-radius: 4px;
+  border: 1px solid #afb1b8;
+  fill: #afb1b8;
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.clietns__logo:hover {
+  fill: #2196f3;
+  border: 1px solid #2196f3;
+}
+
+
+
+
+
+
+/* section clients */
