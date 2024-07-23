@@ -3,7 +3,7 @@
 
 
 .team-members {
-  background: rgb(245, 244, 250);
+  background: rgb(241, 244, 250);
   padding: 94px 0;
 }
 .team-members__title {
@@ -19,6 +19,13 @@
 }
 .team-members__wrapper {
   display: flex;
+  @media screen and (max-width:1199px){
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  @media screen and (max-width:752px){
+    flex-wrap: wrap;
+  }
   gap: 30px;
   margin-top: 50px;
 }
@@ -31,7 +38,6 @@
   background: rgb(255, 255, 255);
 
   text-align: center;
-
   padding-bottom: 30px;
 }
 .team-members__img {

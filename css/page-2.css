@@ -10,6 +10,16 @@ html {
   padding: 0 15px;
 }
 
+@media screen and (max-width: 1199px) {
+  .container {
+    width: 753px;
+  }
+}
+@media screen and (max-width: 1199px) and (max-width: 752px) {
+  .container {
+    width: 450px;
+  }
+}
 :root {
   --main-font: "Roboto", sans-serif;
 }

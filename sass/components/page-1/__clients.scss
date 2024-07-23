@@ -28,6 +28,14 @@ section
 .clients__logos {
   display: flex;
   gap: 30px;
+  @media screen and (max-width:1199px){
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  @media screen and (max-width:752px){
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
 }
 .clietns__logo {
   width: 106px;

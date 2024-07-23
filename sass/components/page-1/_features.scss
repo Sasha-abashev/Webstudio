@@ -5,13 +5,27 @@
 .features {
   display: flex;
   gap: 30px;
+  @media screen and (max-width:1199px){
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  @media screen and (max-width:752px){
+    flex-wrap: wrap;
+  }
 }
+
+
+
 .features__content {
   display: flex;
   flex-direction: column;
-
+  @media screen and (max-width:1199px){
+    width: 345px;
+  }
+  justify-content: center;
   align-items: start;
 }
+
 .features__title {
   color: rgb(33, 33, 33);
   font-family: var(--main-font);
@@ -21,7 +35,8 @@
   letter-spacing: 3%;
   text-align: left;
   text-transform: uppercase;
-
+    justify-content: center;
+  align-items: start;
   margin: 30px 0 10px 0;
 }
 .features__descr {
