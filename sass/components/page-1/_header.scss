@@ -61,10 +61,10 @@ height: 12px;
 }
 
 .logo__text--blue {
-  color: rgb(33, 150, 243);
+  color: $light-blue;
 }
 .logo__text--black {
-  color: rgb(0, 0, 0);
+  color: $dark;
 }
 .menu-list {
   @media screen and (max-width:752px){
@@ -88,7 +88,7 @@ height: 12px;
   position: relative;
 }
 .menu-list__link:hover {
-  color: rgb(33, 150, 243);
+  color: $light-blue;
 }
 .menu-list__link::before {
   content: "";
@@ -102,7 +102,7 @@ height: 12px;
   height: 4px;
 
   border-radius: 2px;
-  background: #2196f3;
+  background: $blue;
 
   opacity: 0;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -112,7 +112,7 @@ height: 12px;
   opacity: 1;
 }
 .menu-list__studio-link {
-  color: #2196f3;
+  color: $blue;
   font-family: var(--main-font);
   font-size: 14px;
   font-style: normal;
@@ -132,7 +132,7 @@ height: 12px;
   height: 4px;
 
   border-radius: 2px;
-  background: #2196f3;
+  background: $blue;
 
   opacity: 1;
 }
@@ -171,13 +171,13 @@ height: 12px;
   gap: 10px;
 }
 .address__link:hover {
-  color: #2196f3;
+  color: $blue;
 }
 .address__link:hover .icon-smartphone{
-  fill: #2196f3;
+  fill: $blue;
 } 
 .address__link:hover .icon-envelope{
-  fill: #2196f3;
+  fill: $blue;
 } 
 .icon-envelope,
 .icon-smartphone{
@@ -201,7 +201,7 @@ height: 12px;
   gap: 30px;
 }
 .header__title {
-  color: rgb(255, 255, 255);
+  color: $light;
   font-family: var(--main-font);
   font-size: 44px;
   font-weight: 900;
@@ -216,15 +216,15 @@ height: 12px;
   border-radius: 4px;
   border: none;
 
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  background: rgb(33, 150, 243);
+  box-shadow: 0px 4px 4px 0px $dark;
+  background: $light-blue;
 
   padding: 10px 32px;
 
   cursor: pointer;
 }
 .header__btn-txt {
-  color: rgb(255, 255, 255);
+  color: $light;
   font-family: var(--main-font);
   font-size: 16px;
   font-weight: 700;

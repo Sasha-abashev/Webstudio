@@ -5,7 +5,7 @@
 
 section 
 .clients {
-  background: #fff;
+  background: $light;
 }
 .clients__content {
   display: flex;
@@ -49,8 +49,8 @@ section
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clietns__logo:hover {
-  fill: #2196f3;
-  border: 1px solid #2196f3;
+  fill: $blue;
+  border: 1px solid $blue;
 }
 
 
